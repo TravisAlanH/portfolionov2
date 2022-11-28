@@ -19,7 +19,12 @@ export default function NavBar() {
       <a href=" " className="NavTextOrientation">
         Git Hub
       </a>
-      <a href=" " className="NavTextOrientation">
+      <a
+        href="https://indd.adobe.com/view/a02a1e3e-d989-459d-9ae4-7c4e97f834c1"
+        target={"_blank"}
+        rel="noreferrer"
+        className="NavTextOrientation GradientHover"
+      >
         resume
       </a>
     </div>
