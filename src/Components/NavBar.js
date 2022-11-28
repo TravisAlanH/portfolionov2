@@ -16,7 +16,12 @@ export default function NavBar() {
       >
         Linked In
       </a>
-      <a href=" " className="NavTextOrientation">
+      <a
+        href="https://github.com/TravisAlanH"
+        className="NavTextOrientation GradientHover"
+        target={"_blank"}
+        rel="noreferrer"
+      >
         Git Hub
       </a>
       <a
