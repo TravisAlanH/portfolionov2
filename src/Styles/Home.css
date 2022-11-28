@@ -1,0 +1,80 @@
+.PageBlock {
+    position: fixed;
+    width: 85rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 59, 68);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius:1rem ;
+    gap: 2rem;
+    margin-left: 8rem;
+    margin-top: 8rem;
+    margin-bottom: 12rem;
+}
+
+.CenterCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PageLink {
+    color: white;
+    font-size: 600%;
+    text-decoration: none;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    transition: all 300ms ease-in-out;
+    
+}
+
+.GradientHover:hover {
+    background-image: linear-gradient(20deg, #78dcf3, #332849);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;    
+    transition: all 300ms ease-in-out;
+}
+
+.GradientNoHover {
+    background-image: linear-gradient(20deg, #78dcf3, #332849);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+
+.NameAndInfo {
+    padding-top: 5rem;
+    width: 20rem;
+}
+
+.Info {
+    padding-top: .8rem;
+    color: rgb(119, 114, 114);
+    font-size: 90%;
+    text-decoration: none;
+}
+
+.Name {
+    color: white;
+    font-size: 110%;
+    text-decoration: none;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+}
+
+.HomeLinksList {
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.textRed {
+    width: 70rem;
+    height: 40rem;
+    background-color: red;
+}
+

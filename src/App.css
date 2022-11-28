@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font: Sans-Serif;
+
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+/* .App:before{
+  position:absolute;
+  z-index:-1;
+  top:8rem;
+  left:30%;
+  width:70%;
+  height:30rem;
+  content:"";
+  background-color:rgb(46, 59, 68);
+} */
+
+.Content {
+  position:relative;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+@media screen and (min-width:3000px) {
+  html {
+      font-size: 300%;
+  }
+}
