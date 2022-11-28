@@ -97,7 +97,7 @@ export default function Projects() {
           </div>
           <div className="PageBlockLinkBox">
             <Link
-              to="/"
+              to="/home"
               className="PageBlockLinks GradientHover"
               onClick={() => {
                 var elem = document.getElementById("Content");
@@ -135,8 +135,6 @@ export default function Projects() {
         <FaRegWindowRestore className="PageIcon GradientNoHover" />
       </div>
       <div className="ProjectsBox">
-        {/* Cverlay */}
-        {/* Overlay */}
         <div>
           <div
             className="ViewOn"

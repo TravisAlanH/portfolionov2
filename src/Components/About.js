@@ -69,7 +69,7 @@ export default function About() {
           </div>
           <div className="PageBlockLinkBox">
             <Link
-              to="/"
+              to="/home"
               className="PageBlockLinks GradientHover"
               onClick={() => {
                 var elem = document.getElementById("Content");

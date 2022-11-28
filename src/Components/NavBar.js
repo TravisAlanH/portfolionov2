@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <div className="NavBar" id="NavBar">
-      <Link to="/" className="NavTextOrientation GradientHover">
+      <Link to="/home" className="NavTextOrientation GradientHover">
         Home
       </Link>
       <span className="NavTextOrientation">------</span>

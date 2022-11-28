@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import Contact from "./Contact";
 import Home from "./Home";
 import { AnimatePresence } from "framer-motion";
@@ -11,7 +11,8 @@ export default function RoutesPath() {
   return (
     <AnimatePresence>
       <Routes location={location} key={location.pathname}>
-        <Route exact path="/" element={<Home />}></Route>
+        <Route path="/" element={<Navigate replace to="/home" />} />
+        <Route exact path="/home" element={<Home />}></Route>
         <Route exact path="/contact" element={<Contact />}></Route>
         <Route exact path="/about" element={<About />}></Route>
         <Route exact path="/projects" element={<Projects />}></Route>
