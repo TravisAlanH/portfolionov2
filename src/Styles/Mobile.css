@@ -7,6 +7,52 @@
     .NavBarM {
         display: flex !important;
     }
+    .AboutHeaderSplit {
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
+    .FaceImage {
+        width: 100%;
+        transform: translateX(5rem);
+        margin-top: 2rem;
+    }
+    .Hello {
+        width: fit-content;
+    }
+    .HelloText {
+        font-size: 400%;
+    }
+    .ProfilePhoto{
+        margin: 3rem;
+    }
+    .AboutText {
+        width: 25%;
+    }
+    p {
+        text-indent: 2rem;
+    }
+    .SchoolDiv {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .ShoolContent {
+        flex-direction: column;
+    }
+    .SchoolBox {
+        height: fit-content;
+    }
+    .SchoolLogoBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 2rem;
+    }
+}
+
+.SchoolLogoBox {
+
 }
 
 .NavBarM {

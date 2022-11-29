@@ -86,7 +86,7 @@ export default function HomeMobile() {
       <div className="SchoolDiv">
         <div className="SchoolBox">
           <div className="ShoolContent">
-            <div>
+            <div className="SchoolLogoBox">
               <img src={DSU} alt="dsu" className="SchoolIcon" />
             </div>
             <div className="SchoolText">
@@ -98,7 +98,7 @@ export default function HomeMobile() {
         </div>
         <div className="SchoolBox">
           <div className="ShoolContent">
-            <div>
+            <div className="SchoolLogoBox">
               <img src={UC} alt="UC" className="SchoolIcon" />
             </div>
             <div className="SchoolText">
