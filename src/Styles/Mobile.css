@@ -1,0 +1,35 @@
+
+
+@media screen and (max-width: 600px) {
+    .NavBar {
+        display: none;
+    }
+    .NavBarM {
+        display: flex !important;
+    }
+}
+
+.NavBarM {
+    padding-top: 2.5rem;
+    position:fixed;
+    width: 3rem;
+    height: fit-content;
+    top: 0vh;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    z-index: 2;
+}
+
+.NavBarM:before{
+    position:absolute;
+    z-index:-1;
+    top:0;
+    left:30%;
+    width:40%;
+    height:100%;
+    content:"";
+    background-color:white;
+}

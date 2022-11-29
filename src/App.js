@@ -2,6 +2,7 @@ import "./App.css";
 import "./Styles/NavBar.css";
 import "./Styles/Home.css";
 import "./Styles/Links.css";
+import "./Styles/Mobile.css";
 import NavBar from "./Components/NavBar";
 import React, { useEffect } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
