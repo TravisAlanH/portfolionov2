@@ -13,7 +13,7 @@
     padding-top: 2.5rem;
     position:fixed;
     width: 3rem;
-    height: fit-content;
+    height: 100%;
     top: 0vh;
     left: 0;
     display: none;
