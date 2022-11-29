@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaAngleDown, FaRegWindowRestore, FaAngleUp } from "react-icons/fa";
+import {
+  FaAngleDown,
+  FaRegWindowRestore,
+  FaAngleUp,
+  FaQuoteLeft,
+  FaQuoteRight,
+} from "react-icons/fa";
 import { motion } from "framer-motion";
 import Amazon from "../Images/AmazonCloneImg.jpg";
 
@@ -97,6 +103,18 @@ export default function Projects() {
           </div>
         </div>
       </div>
+      {/* QUOTE */}
+
+      <div className="QuoteBlock">
+        <div className="QuoteMark">
+          <FaQuoteLeft className="PageIconQuote GradientNoHover" />
+        </div>
+        <div className="QuoteText"></div>
+        <div className="QuoteMark">
+          <FaQuoteRight className="PageIconQuote GradientNoHover" />
+        </div>
+      </div>
+
       {/* CONTENT */}
       <div className="PageIconDiv">
         <div className="Start" id="Start"></div>
