@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-export default function Home() {
+export default function Home(props) {
+  let data = { ...props };
   return (
     <motion.div
       className="PageBlock"
@@ -23,7 +24,7 @@ export default function Home() {
       }}
     >
       <div className="NameAndInfo">
-        <div className="Name">Travis Heidelberger</div>
+        <div className="Name">{data.name}</div>
         <div className="Info">
           Web Developer, Data Structures, Object Oriented
         </div>

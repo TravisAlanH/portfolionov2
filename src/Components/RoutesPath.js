@@ -5,6 +5,7 @@ import Home from "./Home";
 import { AnimatePresence } from "framer-motion";
 import About from "./About";
 import Projects from "./Projects";
+import data from "../Resume";
 
 export default function RoutesPath() {
   let location = useLocation();
@@ -12,7 +13,7 @@ export default function RoutesPath() {
     <AnimatePresence>
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Navigate replace to="/home" />} />
-        <Route exact path="/home" element={<Home />}></Route>
+        <Route exact path="/home" element={<Home data={data} />}></Route>
         <Route exact path="/contact" element={<Contact />}></Route>
         <Route exact path="/about" element={<About />}></Route>
         <Route exact path="/projects" element={<Projects />}></Route>

@@ -123,9 +123,7 @@ export default function Projects() {
               prospect.
             </h3>
           </div>
-          <div className="QuoteBottom">
-            <h3></h3>
-          </div>
+          <div className="QuoteBottom"></div>
         </div>
         <div className="QuoteMark">
           <FaQuoteRight className="PageIconQuote GradientNoHover" />
