@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import {
-  FaAngleDown,
   FaGraduationCap,
   FaCode,
   FaReact,
@@ -21,11 +19,6 @@ import DSU from "../Images/DSU_Logo.png";
 import UC from "../Images/UC_Logo.png";
 import Photo from "../Images/ProfilePhoto.jpg";
 import Amazon from "../Images/AmazonCloneImg.jpg";
-
-function scrollToContent() {
-  var elem = document.getElementById("Start");
-  elem.scrollIntoView();
-}
 
 export default function HomeMobile() {
   return (
