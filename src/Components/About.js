@@ -232,7 +232,7 @@ export default function About() {
       </div>
       <div
         className="CenterCol"
-        style={{ "padding-bottom": "1rem", "padding-top": "2rem" }}
+        style={{ "paddingBottom": "1rem", "paddingTop": "2rem" }}
       >
         <FaAngleUp
           onClick={() => {

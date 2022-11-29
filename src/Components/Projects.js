@@ -103,23 +103,37 @@ export default function Projects() {
           </div>
         </div>
       </div>
+
+      <div className="PageIconDiv">
+        <div className="Start" id="Start"></div>
+        <FaRegWindowRestore className="PageIcon GradientNoHover" />
+      </div>
+
       {/* QUOTE */}
 
       <div className="QuoteBlock">
         <div className="QuoteMark">
           <FaQuoteLeft className="PageIconQuote GradientNoHover" />
         </div>
-        <div className="QuoteText"></div>
+        <div className="QuoteText">
+          <div className="QuoteTop">
+            <h3>
+              Projects sections keep visitors engaged and navigating from page
+              to page, lengthening your opportunity to capture the eye of the
+              prospect.
+            </h3>
+          </div>
+          <div className="QuoteBottom">
+            <h3></h3>
+          </div>
+        </div>
         <div className="QuoteMark">
           <FaQuoteRight className="PageIconQuote GradientNoHover" />
         </div>
       </div>
 
       {/* CONTENT */}
-      <div className="PageIconDiv">
-        <div className="Start" id="Start"></div>
-        <FaRegWindowRestore className="PageIcon GradientNoHover" />
-      </div>
+
       <div className="ProjectsBox">
         <div className="ProjectsLayoutBox">
           <div className="ProjectItemBox">

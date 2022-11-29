@@ -465,11 +465,31 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .PageIconQuote {
     width: 2rem;
     height: 2rem;
+    color: #6799a5
+}
+
+.QuoteText {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.QuoteBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.QuoteText {
+    width: 50%;
 }
 
 /* PROJECTS */
