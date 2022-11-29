@@ -1,20 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import {
-  FaAngleDown,
-  //   FaGraduationCap,
-  //   FaCode,
-  //   FaReact,
-  //   FaHtml5,
-  //   FaCss3Alt,
-  //   FaJsSquare,
-  FaRegWindowRestore,
-  FaAngleUp,
-} from "react-icons/fa";
+import { FaAngleDown, FaRegWindowRestore, FaAngleUp } from "react-icons/fa";
 import { motion } from "framer-motion";
-// import DSU from "../Images/DSU_Logo.png";
-// import UC from "../Images/UC_Logo.png";
-// import Photo from "../Images/ProfilePhoto.jpg";
+import Amazon from "../Images/AmazonCloneImg.jpg";
 
 function scrollToContent() {
   var elem = document.getElementById("Start");
@@ -22,27 +10,12 @@ function scrollToContent() {
 }
 
 export default function Projects() {
-  const [display, setDisplay] = useState("none");
-
-  window.addEventListener("click", function (e) {
-    if (document.getElementById("Overlay").contains(e.target)) {
-      setDisplay("none");
-    } else {
-    }
-  });
-
   //   let top = window.scrollY;
 
   //   window.addEventListener("drag", (e) => {
   //     console.log(e.clientY);
   //     top = e.pageYOffset;
   //   });
-
-  let styles = {
-    "overlayInfo": {
-      "display": display,
-    },
-  };
 
   return (
     <motion.div
@@ -79,11 +52,6 @@ export default function Projects() {
         default: { ease: "linear" },
       }}
     >
-      {/* Cverlay */}
-      <div className="OverlayView" id="Overlay" style={styles.overlayInfo}>
-        <div className="Block">asdf</div>
-      </div>
-      {/* Cverlay */}
       <div className="PageBlockLong" id="PageBlockLong">
         <div className="LinkNameDiv">
           <div className="Link">
@@ -135,13 +103,29 @@ export default function Projects() {
         <FaRegWindowRestore className="PageIcon GradientNoHover" />
       </div>
       <div className="ProjectsBox">
-        <div>
-          <div
-            className="ViewOn"
-            onClick={() => {
-              setDisplay("flex");
-            }}
-          ></div>
+        <div className="ProjectsLayoutBox">
+          <div className="ProjectItemBox">
+            <div className="ProjectItemImage">
+              <img src={Amazon} alt="Amazon Clone" className="ProjectImage" />
+              <div className="ProjectItemImageTextBox">
+                <h3 className="ProjectItemImageText">Amazon Clone</h3>
+              </div>
+            </div>
+
+            <div className="ProjectItemAboutTextBox">
+              <div className="ProjectItemAboutText">
+                <span className="ProjectItemText">Text Here</span>
+              </div>
+              <div className="ProjectItemButtonsBox">
+                <a className="ProjectItemButton" href=" ">
+                  GitHub
+                </a>
+                <a className="ProjectItemButton" href=" ">
+                  Live
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       {/* TO TOP BUTTON */}
