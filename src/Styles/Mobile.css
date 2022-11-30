@@ -80,7 +80,7 @@
 
 
 .NavBarM {
-    padding-top: 2.5rem;
+    /* padding-top: 2.5rem; */
     position:fixed;
     width: 3rem;
     height: 100%;
@@ -88,6 +88,7 @@
     left: 0;
     display: none;
     flex-direction: column;
+    justify-content: space-around;
     gap: 2rem;
     align-items: center;
     z-index: 2;
@@ -97,8 +98,8 @@
     position:absolute;
     z-index:-1;
     top:0;
-    left:30%;
-    width:40%;
+    left:25%;
+    width:50%;
     height:100%;
     content:"";
     background-color:white;
