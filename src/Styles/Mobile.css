@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 770px) {
     .NavBar {
         display: none;
     }
@@ -83,7 +83,7 @@
     /* padding-top: 2.5rem; */
     position:fixed;
     width: 3rem;
-    height: 100%;
+    height: 100vh;
     top: 0vh;
     left: 0;
     display: none;

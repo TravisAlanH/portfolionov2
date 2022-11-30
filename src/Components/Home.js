@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import data from "../Resume";
 
 export default function Home(props) {
-  let data = { ...props };
   return (
     <motion.div
       className="PageBlock"
@@ -24,21 +24,15 @@ export default function Home(props) {
       }}
     >
       <div className="NameAndInfo">
-        <div className="Name">{data.name}</div>
-        <div className="Info">
-          Web Developer, Data Structures, Object Oriented
-        </div>
+        <div className="Name">{data.Name}</div>
+        <div className="Info">{data.HomeQuote}</div>
       </div>
       <div className="HomeLinksList">
-        <Link to="/about" className="PageLink GradientHover">
-          About
-        </Link>
-        <Link to="/projects" className="PageLink GradientHover">
-          Projects
-        </Link>
-        <Link to="/contact" className="PageLink GradientHover">
-          Contact
-        </Link>
+        {data.Links.map((item, index) => (
+          <Link to={item.URL} key={index} className="PageLink GradientHover">
+            {item.Name}
+          </Link>
+        ))}
       </div>
     </motion.div>
   );

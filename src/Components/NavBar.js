@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import data from "../Resume";
 
 export default function NavBar() {
   return (
@@ -35,7 +36,17 @@ export default function NavBar() {
           Home
         </Link>
         <span className="NavTextOrientation">------</span>
-        <a
+        {data.ExternalLinks.map((item, index) => (
+          <a
+            href={item.Url}
+            className="NavTextOrientation GradientHover"
+            rel="noreferrer"
+            target={"_blank"}
+          >
+            {item.Name}
+          </a>
+        ))}
+        {/* <a
           href={"//www.linkedin.com/in/TravisHDev"}
           className="NavTextOrientation GradientHover"
           rel="noreferrer"
@@ -58,7 +69,7 @@ export default function NavBar() {
           className="NavTextOrientation GradientHover"
         >
           resume
-        </a>
+        </a> */}
       </div>
     </>
   );

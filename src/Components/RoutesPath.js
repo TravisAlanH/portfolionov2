@@ -14,7 +14,7 @@ export default function RoutesPath() {
 
   function displayWindowSize() {
     w = document.documentElement.clientWidth;
-    if (w <= 600) {
+    if (w <= 770) {
       pageType = <HomeMobile data={data} />;
     } else {
       pageType = <Home data={data} />;
