@@ -14,9 +14,13 @@
         justify-content: center;
     }
     .FaceImage {
+        transform: translateX(0rem);
         width: 100%;
-        transform: translateX(5rem);
         margin-top: 2rem;
+        border-radius: 0;
+    }
+    .ProfilePhoto {
+        transform: translateX(0rem);
     }
     .Hello {
         width: fit-content;
@@ -28,7 +32,7 @@
         margin: 3rem;
     }
     .AboutText {
-        width: 25%;
+        width: 70%;
     }
     p {
         text-indent: 2rem;
@@ -49,11 +53,31 @@
         justify-content: center;
         margin-left: 2rem;
     }
+    .SkillsDisplay {
+        transform: translateX(0rem);
+        margin: 2rem;
+    }
+    .TeamDisplay {
+        transform: translateX(0rem);
+    }
+    
+    .SkillsDiv {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .SkillsLeftDiv {
+        width: 100%;
+    }
+
+
+
+    .ContactBox {
+        flex-direction: column;
+    }
 }
 
-/* .SchoolLogoBox {
 
-} */
 
 .NavBarM {
     padding-top: 2.5rem;
