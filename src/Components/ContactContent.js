@@ -35,7 +35,7 @@ export default function ContactContent() {
             <input
               type="hidden"
               name="_next"
-              value="https://www.travish.dev/about/sucess.html"
+              value="https://www.travish.dev/about/success.html"
               style={{ "display": "none" }}
             />
 
