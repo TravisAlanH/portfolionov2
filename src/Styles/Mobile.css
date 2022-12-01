@@ -74,6 +74,22 @@
 
     .ContactBox {
         flex-direction: column;
+        gap: 0;
+        height: fit-content;
+        padding: 2rem;
+        align-items: center;
+    }
+    .ContactBoxInfo {
+        margin-bottom: 0;
+    }
+    .ContactHeader {
+        display: none;
+    }
+    .FormBase {
+        margin-top: 0;
+    }
+    .FormLine {
+        flex-direction: column-reverse;
     }
 }
 

@@ -6,6 +6,17 @@ export default function NavBar() {
   return (
     <>
       <div className="NavBarM">
+        {data.ExternalLinks.map((item, index) => (
+          <a
+            href={item.Url}
+            className="NavTextOrientation GradientHover"
+            rel="noreferrer"
+            target={"_blank"}
+            key={index}
+          >
+            {item.Name}
+          </a>
+        ))}
         {/* <a
           href={"//www.linkedin.com/in/TravisHDev"}
           className="NavTextOrientation GradientHover"
