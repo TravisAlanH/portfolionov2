@@ -24,6 +24,15 @@ export default function ContactContent() {
             action="https://formsubmit.co/fa5365a3f97fe0cfad6fc0a595c75d60"
             method="POST"
           >
+            {/* HoneyPot and Captcha */}
+            <input type="text" name="_honey" style={{ "display": "none" }} />
+            <input
+              type="hidden"
+              name="_captcha"
+              value="false"
+              style={{ "display": "none" }}
+            />
+
             {data.ContactInput.map((item, index) => (
               <div className="FormLine">
                 <input
