@@ -32,6 +32,12 @@ export default function ContactContent() {
               value="false"
               style={{ "display": "none" }}
             />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://www.travish.dev/about/sucess.html"
+              style={{ "display": "none" }}
+            />
 
             {data.ContactInput.map((item, index) => (
               <div className="FormLine">
