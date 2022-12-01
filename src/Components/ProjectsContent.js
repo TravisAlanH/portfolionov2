@@ -1,55 +1,10 @@
 import React from "react";
-import {
-  FaAngleUp,
-  FaRegWindowRestore,
-  FaQuoteLeft,
-  FaQuoteRight,
-} from "react-icons/fa";
-import { motion } from "framer-motion";
-
 import Amazon from "../Images/AmazonCloneImg.jpg";
-import AboutContent from "./AboutContent";
-import ContactContent from "./ContactContent";
+import { FaRegWindowRestore, FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 
-export default function HomeMobile() {
+export default function ProjectsContent() {
   return (
-    <motion.div
-      //   initial={{
-      //     x: "100vw",
-      //     transition: { duration: 1, delay: 0 },
-      //     opacity: 0,
-      //   }}
-      //   animate={{ x: 0, transition: { duration: 1, delay: 0 }, opacity: 1 }}
-      //   exit={{ x: "100vw", transition: { duration: 1, delay: 0.5 }, opacity: 0 }}
-      //   transition={{
-      //     default: { ease: "linear" },
-      //   }}
-      initial={{
-        x: "100vw",
-        transition: { duration: 1, delay: 0.5 },
-        opacity: 0,
-        position: "fixed",
-      }}
-      animate={{
-        x: 0,
-        transition: { duration: 1, delay: 0.5 },
-        opacity: 1,
-        position: "relative",
-      }}
-      exit={{
-        x: "-100vw",
-        transition: { duration: 1, delay: 0.5 },
-        opacity: 0,
-        position: "fixed",
-      }}
-      transition={{
-        delay: 0.5,
-        default: { ease: "linear" },
-      }}
-    >
-      <AboutContent />
-
-      {/* Projects */}
+    <div>
       <div className="PageIconDiv">
         <div className="Start" id="Start"></div>
         <FaRegWindowRestore className="PageIcon GradientNoHover" />
@@ -104,23 +59,6 @@ export default function HomeMobile() {
           </div>
         </div>
       </div>
-
-      {/* Contact */}
-
-      <ContactContent />
-
-      <div
-        className="CenterCol"
-        style={{ "paddingBottom": "1rem", "paddingTop": "2rem" }}
-      >
-        <FaAngleUp
-          onClick={() => {
-            var elem = document.getElementById("Content");
-            elem.scrollIntoView();
-          }}
-          className="Icon ToTopButton"
-        />
-      </div>
-    </motion.div>
+    </div>
   );
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaAngleDown, FaLinkedin, FaGithubSquare } from "react-icons/fa";
+import { FaAngleDown } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { FaMailBulk } from "react-icons/fa";
+import ContactContent from "./ContactContent";
 
 function scrollToContent() {
   var elem = document.getElementById("ContentStart");
@@ -90,76 +90,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="PageIconDiv">
-        <FaMailBulk className="PageIcon GradientNoHover" />
-      </div>
-      <div className="CenterCol" id="ContentStart">
-        <h1 className="ContactHeader">Start the conversation here</h1>
-        <div className="ContactBox">
-          <div className="ContactInfoBox">
-            <h5>Email</h5>
-            <h3>Travis.H.Dev@gmail.com</h3>
-            <div className="ContactIconLinks">
-              <FaLinkedin className="PageIconSmall GradientNoHover" />
-              <FaGithubSquare className="PageIconSmall GradientNoHover" />
-            </div>
-          </div>
-          <form className="FormBase">
-            <div className="FormLine">
-              <input
-                type="text"
-                className="FormInputText ChangeLabel"
-                name="name"
-                id="name"
-                required
-              ></input>
-              <label htmlFor="Name" className="FormLabel">
-                Name*
-              </label>
-            </div>
-            <div className="FormLine">
-              <input
-                type="text"
-                className="FormInputText ChangeLabel"
-                name="email"
-                id="email"
-                required
-              ></input>
-              <label htmlFor="email" className="FormLabel">
-                Email*
-              </label>
-            </div>
-            <div className="FormLine">
-              <input
-                type="text"
-                className="FormInputText ChangeLabel"
-                name="phone"
-                id="phone"
-              ></input>
-              <label htmlFor="Phone" className="FormLabel">
-                Phone
-              </label>
-            </div>
-            <div className="FormLine">
-              <textarea
-                type="text"
-                className="FormInputTextArea ChangeLabel"
-                name="comments"
-                id="comments"
-                rows={6}
-              ></textarea>
-              <label htmlFor="Phone" className="FormLabel ">
-                Comments
-              </label>
-            </div>
-            <div className="FormLineSubmit">
-              <button type="submit" className="SubmitButton GradientHover">
-                Submit
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
+      <ContactContent />
     </motion.div>
   );
 }

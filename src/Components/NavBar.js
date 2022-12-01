@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <>
       <div className="NavBarM">
-        <a
+        {/* <a
           href={"//www.linkedin.com/in/TravisHDev"}
           className="NavTextOrientation GradientHover"
           rel="noreferrer"
@@ -29,7 +29,7 @@ export default function NavBar() {
           className="NavTextOrientation GradientHover"
         >
           resume
-        </a>
+        </a> */}
       </div>
       <div className="NavBar" id="NavBar">
         <Link to="/home" className="NavTextOrientation GradientHover">
@@ -42,6 +42,7 @@ export default function NavBar() {
             className="NavTextOrientation GradientHover"
             rel="noreferrer"
             target={"_blank"}
+            key={index}
           >
             {item.Name}
           </a>
