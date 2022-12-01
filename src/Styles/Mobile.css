@@ -98,7 +98,8 @@
         flex-direction: column;
         gap: 0;
         height: fit-content;
-        padding: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         align-items: center;
     }
     .ContactBoxInfo {
