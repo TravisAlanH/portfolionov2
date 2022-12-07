@@ -1,13 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { FaAngleDown, FaAngleUp } from "react-icons/fa";
+// import { Link } from "react-router-dom";
+// import { FaAngleDown } from "react-icons/fa"
+import { FaAngleUp } from "react-icons/fa";
 import { motion } from "framer-motion";
 import AboutContent from "./AboutContent";
+import PageHeader from "./PageHeader";
 
-function scrollToContent() {
-  var elem = document.getElementById("Start");
-  elem.scrollIntoView();
-}
+// function scrollToContent() {
+//   var elem = document.getElementById("Start");
+//   elem.scrollIntoView();
+// }
 
 export default function About() {
   return (
@@ -45,7 +47,10 @@ export default function About() {
         default: { ease: "linear" },
       }}
     >
-      <div className="PageBlockLong" id="PageBlockLong">
+      {/*  */}
+      <PageHeader page={0} />
+
+      {/* <div className="PageBlockLong" id="PageBlockLong">
         <div className="LinkNameDiv">
           <div className="Link">
             About
@@ -89,7 +94,9 @@ export default function About() {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
+
+      {/*  */}
       <AboutContent />
       <div
         className="CenterCol"

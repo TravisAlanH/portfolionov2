@@ -36,6 +36,18 @@ let data = {
   ],
   "AboutText":
     "My Name is Travis Heidelberger. I am a front end web developer that understands the importance of well built data structures. For the past 14 years I was Active duty with the United States Navy as a Government Credit Card Holder and Logistics Specialist where I maintained the financial assets of my command. I have a passion for learning, and drive to create new, responsive, things for the web.",
+
+  "HeaderLines": [
+    {
+      "Name": "About",
+      "Link1": "Home",
+      "Link1URL": "/home",
+      "Link2": "Contact",
+      "Link2URL": "/contact",
+      "Link3": "Projects",
+      "Link3URL": "/projects",
+    },
+  ],
   "Collage": [
     {
       "Image": DSU,
