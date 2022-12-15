@@ -48,10 +48,20 @@ export default function ProjectsContent() {
                 <span className="ProjectItemText">Text Here</span>
               </div>
               <div className="ProjectItemButtonsBox">
-                <a className="ProjectItemButton" href=" ">
+                <a
+                  className="ProjectItemButton"
+                  href="https://stately-melba-346208.netlify.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   GitHub
                 </a>
-                <a className="ProjectItemButton" href=" ">
+                <a
+                  className="ProjectItemButton"
+                  href="https://github.com/TravisAlanH/AmazonClone"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Live
                 </a>
               </div>
