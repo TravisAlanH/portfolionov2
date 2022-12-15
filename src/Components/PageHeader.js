@@ -22,7 +22,8 @@ export default function PageHeader(props) {
             />
           </div>
           <div className="PageBlockLinkBox">
-            <Link
+            {data.HeaderLines[props].map}
+            {/* <Link
               to="/home"
               className="PageBlockLinks GradientHover"
               onClick={() => {
@@ -51,7 +52,7 @@ export default function PageHeader(props) {
               }}
             >
               Projects
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

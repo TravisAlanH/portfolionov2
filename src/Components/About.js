@@ -14,16 +14,6 @@ import PageHeader from "./PageHeader";
 export default function About() {
   return (
     <motion.div
-      //   initial={{
-      //     x: "100vw",
-      //     transition: { duration: 1, delay: 0 },
-      //     opacity: 0,
-      //   }}
-      //   animate={{ x: 0, transition: { duration: 1, delay: 0 }, opacity: 1 }}
-      //   exit={{ x: "100vw", transition: { duration: 1, delay: 0.5 }, opacity: 0 }}
-      //   transition={{
-      //     default: { ease: "linear" },
-      //   }}
       initial={{
         x: "100vw",
         transition: { duration: 1, delay: 0.5 },
