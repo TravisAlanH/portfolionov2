@@ -4,7 +4,6 @@ import { FaAngleDown } from "react-icons/fa";
 import { FaAngleUp } from "react-icons/fa";
 import { motion } from "framer-motion";
 import AboutContent from "./AboutContent";
-import PageHeader from "./PageHeader";
 
 function scrollToContent() {
   var elem = document.getElementById("Start");
