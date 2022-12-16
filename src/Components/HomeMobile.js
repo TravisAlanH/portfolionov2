@@ -1,7 +1,6 @@
 import React from "react";
 import {
   FaAngleUp,
-  FaRegWindowRestore,
   // FaQuoteLeft,
   // FaQuoteRight,
 } from "react-icons/fa";
