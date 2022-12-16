@@ -1,6 +1,7 @@
 
 
 @media screen and (max-width: 770px) {
+
     
     .NavBar {
         display: none;
@@ -96,7 +97,8 @@
     .SkillsRightDiv {
         width: 100%;
     }
-    .QuoteBlock {
+    
+    .QuoteMark {
         transform: translateX(1rem);
 
     }
@@ -104,6 +106,11 @@
     .QuoteText {
         padding-right: 1rem;
         padding-left: 1rem;
+        transform: translateX(1rem);
+
+    }
+    .QuoteTop > h3 {
+        text-align: center;
     }
 
 
@@ -114,13 +121,16 @@
         padding-top: 2rem;
         padding-bottom: 2rem;
         align-items: center;
-        transform: translateX(1rem);
     }
     .ContactBoxInfo {
         margin-bottom: 0;
     }
     .ContactHeader {
         display: none;
+    }
+    .ContactInfoBox, .FormBase{
+        transform: translateX(1rem);
+
     }
     .FormBase {
         margin-top: 0;
