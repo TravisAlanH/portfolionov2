@@ -11,6 +11,11 @@ import AboutContent from "./AboutContent";
 import ContactContent from "./ContactContent";
 import ProjectsContent from "./ProjectsContent";
 
+function scrollToContent() {
+  var elem = document.getElementById("Contact");
+  elem.scrollIntoView();
+}
+
 export default function HomeMobile() {
   return (
     <motion.div
@@ -47,6 +52,15 @@ export default function HomeMobile() {
         default: { ease: "linear" },
       }}
     >
+      <div className="ToContactDiv">
+        <button
+          onClick={() => {
+            scrollToContent();
+          }}
+        >
+          Contact Me
+        </button>
+      </div>
       <AboutContent />
 
       {/* Projects */}
@@ -110,6 +124,7 @@ export default function HomeMobile() {
       {/* Contact */}
 
       <ContactContent />
+      <div id="Contact"></div>
 
       <div
         className="CenterCol"
