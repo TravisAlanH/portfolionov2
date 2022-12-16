@@ -1,6 +1,8 @@
 import React from "react";
 import Amazon from "../Images/AmazonCloneImg.jpg";
 import { FaRegWindowRestore, FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
+import data from "../Resume";
+import ProjectItem from "./ProjectItem";
 
 export default function ProjectsContent() {
   return (
@@ -35,43 +37,9 @@ export default function ProjectsContent() {
 
       <div className="ProjectsBox">
         <div className="ProjectsLayoutBox">
-          <div className="ProjectItemBox">
-            <div className="ProjectItemImage">
-              <img src={Amazon} alt="Amazon Clone" className="ProjectImage" />
-              <div className="ProjectItemImageTextBox">
-                <h3 className="ProjectItemImageText">Amazon Clone</h3>
-              </div>
-            </div>
-
-            <div className="ProjectItemAboutTextBox">
-              <div className="ProjectItemAboutText">
-                <span className="ProjectItemText">
-                  React, HTML, CSS, JS <br /> Showcase design fundamentals{" "}
-                  <br />
-                  THIS IS TEST CONTENT TO FILL THIS IS TEST CONTENT TO FILL THIS
-                  IS TEST CONTENT TO FILL
-                </span>
-              </div>
-              <div className="ProjectItemButtonsBox">
-                <a
-                  className="ProjectItemButton"
-                  href="https://github.com/TravisAlanH/AmazonClone"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub
-                </a>
-                <a
-                  className="ProjectItemButton"
-                  href="https://stately-melba-346208.netlify.app"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Live
-                </a>
-              </div>
-            </div>
-          </div>
+          {data.Projects.map((item, index) => {
+            return <ProjectItem {...item} key={index} />;
+          })}
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import { FaCss3Alt, FaHtml5, FaJsSquare, FaReact } from "react-icons/fa";
 import DSU from "./Images/DSU_Logo.png";
 import UC from "./Images/UC_Logo.png";
+import Amazon from "./Images/AmazonCloneImg.jpg";
 
 let data = {
   "Name": "Travis Heidelberger",
@@ -138,8 +139,18 @@ let data = {
     {
       "Name": "Amazon Clone",
       "Description":
-        "This is a clone of the Amazon website. It is built using React, and Firebase. It has a fully functional shopping cart, and a payment system using Stripe.",
-      "Image": "./Images/AmazonClone.png",
+        "This is a clone of the Amazon website. It is built using React, HTML and CSS",
+      "Image": Amazon,
+      "GitHubLink": "https://github.com/TravisAlanH/AmazonClone",
+      "LiveLink": "https://stately-melba-346208.netlify.app",
+    },
+    {
+      "Name": "Amazon Clone",
+      "Description":
+        "This is a clone of the Amazon website. It is built using React, HTML and CSS",
+      "Image": Amazon,
+      "GitHubLink": "https://github.com/TravisAlanH/AmazonClone",
+      "LiveLink": "https://stately-melba-346208.netlify.app",
     },
   ],
 };
