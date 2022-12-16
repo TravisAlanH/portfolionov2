@@ -48,6 +48,9 @@ p {
     color: white;
 }
 
+.MobileProjectMessage {
+    display: none;
+}
 .ArrowDown {
     align-items: flex-end;
     justify-content: flex-end;
@@ -535,9 +538,14 @@ p {
     width: 100%;
     height: 60%;
     border-radius: inherit;
+    transition: all 300ms ease-in-out;
     /* display: flex;
     flex-direction: column;
     justify-content: flex-end; */
+}
+
+.ProjectItemBox:hover .ProjectItemImage {
+    height: 45%;
 }
 
 .ProjectItemImageTextBox {
@@ -577,6 +585,12 @@ p {
     border-bottom-left-radius: inherit;
     border-bottom-right-radius: inherit;
     opacity: 1;
+    transition: all 300ms ease-in-out;
+
+}
+
+.ProjectItemBox:hover .ProjectItemAboutTextBox {
+    height: 55%;
 }
 
 .ProjectItemAboutText {

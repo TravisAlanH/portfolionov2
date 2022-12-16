@@ -2,14 +2,15 @@ import React from "react";
 import {
   FaAngleUp,
   FaRegWindowRestore,
-  FaQuoteLeft,
-  FaQuoteRight,
+  // FaQuoteLeft,
+  // FaQuoteRight,
 } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-import Amazon from "../Images/AmazonCloneImg.jpg";
+// import Amazon from "../Images/AmazonCloneImg.jpg";
 import AboutContent from "./AboutContent";
 import ContactContent from "./ContactContent";
+import ProjectsContent from "./ProjectsContent";
 
 export default function HomeMobile() {
   return (
@@ -50,14 +51,16 @@ export default function HomeMobile() {
       <AboutContent />
 
       {/* Projects */}
-      <div className="PageIconDiv">
+      {/* <div className="PageIconDiv">
         <div className="Start" id="Start"></div>
         <FaRegWindowRestore className="PageIcon GradientNoHover" />
-      </div>
+      </div> */}
+
+      <ProjectsContent />
 
       {/* QUOTE */}
-
-      <div className="QuoteBlock">
+      {/*  */}
+      {/* <div className="QuoteBlock">
         <div className="QuoteMark">
           <FaQuoteLeft className="PageIconQuote GradientNoHover" />
         </div>
@@ -74,11 +77,11 @@ export default function HomeMobile() {
         <div className="QuoteMark">
           <FaQuoteRight className="PageIconQuote GradientNoHover" />
         </div>
-      </div>
+      </div> */}
 
       {/* CONTENT */}
 
-      <div className="ProjectsBox">
+      {/* <div className="ProjectsBox">
         <div className="ProjectsLayoutBox">
           <div className="ProjectItemBox">
             <div className="ProjectItemImage">
@@ -103,7 +106,7 @@ export default function HomeMobile() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Contact */}
 

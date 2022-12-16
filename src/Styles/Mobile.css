@@ -1,7 +1,7 @@
 
 
 @media screen and (max-width: 770px) {
-
+    
     .NavBar {
         display: none;
     }
@@ -21,19 +21,22 @@
         border-radius: 0;
     }
     .ProfilePhoto {
-        transform: translateX(0rem);
+        transform: translateX(1rem);
     }
     .Hello {
         width: fit-content;
+        /* transform: translateX(1rem); */
     }
     .HelloText {
         font-size: 400%;
+        transform: translateX(1.2rem);
     }
     .ProfilePhoto{
         margin: 3rem;
     }
     .AboutText {
         width: 70%;
+        transform: translateX(1rem);
     }
     p {
         text-indent: 2rem;
@@ -43,10 +46,12 @@
         height: fit-content;
         align-items: center;
         justify-content: center;
+        
 
     }
     .ShoolContent {
         flex-direction: column;
+        transform: translateX(1rem);
     }
     .SchoolBox {
         height: fit-content;
@@ -64,11 +69,11 @@
         width: 14rem;
     }
     .SkillsDisplay {
-        transform: translateX(0rem);
+        transform: translateX(1rem);
         margin: 2rem;
     }
     .TeamDisplay {
-        transform: translateX(0rem);
+        transform: translateX(1rem);
     }
     
     .SkillsDiv {
@@ -78,14 +83,22 @@
     }
     .SkillsLeftDiv {
         width: 100%;
+        
     }
     .TeamDisplay {
         padding: 0;
         padding-top: 2rem;
         width: 80%;
     }
+    .TeamText {
+        padding-left: .5rem;
+    }
     .SkillsRightDiv {
         width: 100%;
+    }
+    .QuoteBlock {
+        transform: translateX(1rem);
+
     }
 
     .QuoteText {
@@ -101,6 +114,7 @@
         padding-top: 2rem;
         padding-bottom: 2rem;
         align-items: center;
+        transform: translateX(1rem);
     }
     .ContactBoxInfo {
         margin-bottom: 0;
@@ -114,6 +128,48 @@
     .FormLine {
         flex-direction: column-reverse;
     }
+    .ProjectsLayoutBox {
+        flex-direction: column;
+    }
+    .ProjectsBox {
+        height: auto;
+    }
+    .ProjectsLayoutBox {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    .ProjectItemBox {
+        height: 13rem;
+        transform: translateX(1rem);
+    }
+    .ProjectItemImage {
+        height: 70%;
+    }
+    .ProjectItemAboutTextBox {
+        height: 30%;
+    }
+    .ProjectItemBox:hover {
+        width: 15rem;
+        height: 20rem;
+    }
+    .MobileProjectMessage {
+        display: block;
+        font-size: 80%;
+        text-decoration: none;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+        color: white; 
+        transform: translateX(1rem);
+   
+    }
+    .PageIcon{
+        transform: translateX(1rem);
+
+    }
+    .ToTopButton {
+        transform: translateX(1rem);
+    }
+
 }
 
 

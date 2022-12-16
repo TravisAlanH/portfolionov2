@@ -32,10 +32,9 @@ export default function ProjectsContent() {
         </div>
       </div>
 
-      {/* CONTENT */}
-
       <div className="ProjectsBox">
         <div className="ProjectsLayoutBox">
+          <h3 className="MobileProjectMessage">select image for more detail</h3>
           {data.Projects.map((item, index) => {
             return <ProjectItem {...item} key={index} />;
           })}
