@@ -2,6 +2,7 @@ import { FaCss3Alt, FaHtml5, FaJsSquare, FaReact } from "react-icons/fa";
 import DSU from "./Images/DSU_Logo.png";
 import UC from "./Images/UC_Logo.png";
 import Amazon from "./Images/AmazonCloneImg.jpg";
+import Navy from "./Images/NavyPage.jpg";
 
 let data = {
   "Name": "Travis Heidelberger",
@@ -149,12 +150,12 @@ let data = {
       "LiveLink": "https://stately-melba-346208.netlify.app",
     },
     {
-      "Name": "Amazon Clone",
+      "Name": "US Navy Logistics",
       "Description":
-        "This is a clone of the Amazon website. It is built using React, HTML and CSS",
-      "Image": Amazon,
-      "GitHubLink": "https://github.com/TravisAlanH/AmazonClone",
-      "LiveLink": "https://stately-melba-346208.netlify.app",
+        "Assist in the process of Monthly Navy Obligations by Streamlining Document creation in accordance with Current DoD instruction",
+      "Image": Navy,
+      "GitHubLink": "https://github.com/TravisAlanH/Navy-Page",
+      "LiveLink": "https://main--luxury-conkies-c0db37.netlify.app",
     },
   ],
 };
