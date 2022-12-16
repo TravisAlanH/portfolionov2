@@ -150,9 +150,9 @@ let data = {
       "LiveLink": "https://stately-melba-346208.netlify.app",
     },
     {
-      "Name": "US Navy Logistics",
+      "Name": "U.S. Navy Logistics",
       "Description":
-        "Assist in the process of Monthly Navy Obligations by Streamlining Document creation in accordance with Current DoD instruction",
+        "Working Project : Assist in the process of Monthly Navy Obligations by Streamlining Document creation in accordance with Current DoD instruction",
       "Image": Navy,
       "GitHubLink": "https://github.com/TravisAlanH/Navy-Page",
       "LiveLink": "https://main--luxury-conkies-c0db37.netlify.app",

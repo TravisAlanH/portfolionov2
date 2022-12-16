@@ -11,7 +11,7 @@ export default function AboutContent() {
         <div className="AboutHeaderSplit">
           <div className="Hello">
             <h1 className="HelloText GradientNoHover">Hello</h1>
-            <h5 className="FromTravis">./ Travis</h5>
+            <h5 className="FromTravis">./Travis</h5>
           </div>
           <div className="FaceImage">
             <img className="ProfilePhoto" src={Photo} alt="ProfilePhoto" />
