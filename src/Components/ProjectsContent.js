@@ -1,5 +1,4 @@
 import React from "react";
-import Amazon from "../Images/AmazonCloneImg.jpg";
 import { FaRegWindowRestore, FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import data from "../Resume";
 import ProjectItem from "./ProjectItem";
