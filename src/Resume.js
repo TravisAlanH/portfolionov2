@@ -134,6 +134,14 @@ let data = {
     "SubmitText": "Submit",
     "Type": "submit",
   },
+  "Projects": [
+    {
+      "Name": "Amazon Clone",
+      "Description":
+        "This is a clone of the Amazon website. It is built using React, and Firebase. It has a fully functional shopping cart, and a payment system using Stripe.",
+      "Image": "./Images/AmazonClone.png",
+    },
+  ],
 };
 
 export default data;

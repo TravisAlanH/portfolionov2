@@ -45,12 +45,17 @@ export default function ProjectsContent() {
 
             <div className="ProjectItemAboutTextBox">
               <div className="ProjectItemAboutText">
-                <span className="ProjectItemText">Text Here</span>
+                <span className="ProjectItemText">
+                  React, HTML, CSS, JS <br /> Showcase design fundamentals{" "}
+                  <br />
+                  THIS IS TEST CONTENT TO FILL THIS IS TEST CONTENT TO FILL THIS
+                  IS TEST CONTENT TO FILL
+                </span>
               </div>
               <div className="ProjectItemButtonsBox">
                 <a
                   className="ProjectItemButton"
-                  href="https://stately-melba-346208.netlify.app"
+                  href="https://github.com/TravisAlanH/AmazonClone"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -58,7 +63,7 @@ export default function ProjectsContent() {
                 </a>
                 <a
                   className="ProjectItemButton"
-                  href="https://github.com/TravisAlanH/AmazonClone"
+                  href="https://stately-melba-346208.netlify.app"
                   target="_blank"
                   rel="noreferrer"
                 >
