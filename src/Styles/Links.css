@@ -635,5 +635,6 @@ p {
 }
 
 .ToContactDiv {
+    width: fit-content;
     display: none;
 }

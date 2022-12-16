@@ -153,10 +153,10 @@
         transform: translateX(1rem);
     }
     .ProjectItemImage {
-        height: 70%;
+        height: 80%;
     }
     .ProjectItemAboutTextBox {
-        height: 30%;
+        height: 20%;
     }
     .ProjectItemBox:hover {
         width: 15rem;

@@ -15,8 +15,12 @@ export default function ContactContent() {
             <h5>Email</h5>
             <h3>{data.Email}</h3>
             <div className="ContactIconLinks">
-              <FaLinkedin className="PageIconSmall GradientNoHover" />
-              <FaGithubSquare className="PageIconSmall GradientNoHover" />
+              <a href={data.Link.LinkedIn} target="_blank" rel="noreferrer">
+                <FaLinkedin className="PageIconSmall GradientNoHover" />
+              </a>
+              <a href={data.Link.GitHub} target="_blank" rel="noreferrer">
+                <FaGithubSquare className="PageIconSmall GradientNoHover" />
+              </a>
             </div>
           </div>
           <form

@@ -21,6 +21,10 @@ let data = {
       "URL": "/contact",
     },
   ],
+  "Link": {
+    "LinkedIn": "//www.linkedin.com/in/TravisHDev",
+    "GitHub": "https://github.com/TravisAlanH",
+  },
   "ExternalLinks": [
     {
       "Name": "Linked In",

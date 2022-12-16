@@ -34,7 +34,9 @@ export default function ProjectsContent() {
 
       <div className="ProjectsBox">
         <div className="ProjectsLayoutBox">
-          <h3 className="MobileProjectMessage">select image for more detail</h3>
+          <h3 className="MobileProjectMessage">
+            select image to Expand Content
+          </h3>
           {data.Projects.map((item, index) => {
             return <ProjectItem {...item} key={index} />;
           })}
