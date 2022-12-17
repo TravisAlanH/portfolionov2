@@ -3,6 +3,7 @@ import DSU from "./Images/DSU_Logo.png";
 import UC from "./Images/UC_Logo.png";
 import Amazon from "./Images/AmazonCloneImg.jpg";
 import Navy from "./Images/NavyPage.jpg";
+import Game from "./Images/IndexGame.jpg";
 
 let data = {
   "Name": "Travis Heidelberger",
@@ -156,6 +157,13 @@ let data = {
       "Image": Navy,
       "GitHubLink": "https://github.com/TravisAlanH/Navy-Page",
       "LiveLink": "https://main--luxury-conkies-c0db37.netlify.app",
+    },
+    {
+      "Name": "Canvas Game",
+      "Description": "W,A,S,D to move, Mouse Down to Shoot, Space for Bomb",
+      "Image": Game,
+      "GitHubLink": " ",
+      "LiveLink": " ",
     },
   ],
 };

@@ -599,7 +599,8 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding-left: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
     overflow: hidden;
     -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);
 }
