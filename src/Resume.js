@@ -162,8 +162,8 @@ let data = {
       "Name": "Canvas Game",
       "Description": "W,A,S,D to move, Mouse Down to Shoot, Space for Bomb",
       "Image": Game,
-      "GitHubLink": " ",
-      "LiveLink": " ",
+      "GitHubLink": "https://github.com/TravisAlanH/CanvasGame",
+      "LiveLink": "https://main--animated-florentine-0b348b.netlify.app",
     },
   ],
 };
