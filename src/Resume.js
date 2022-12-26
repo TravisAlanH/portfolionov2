@@ -153,7 +153,7 @@ let data = {
     {
       "Name": "U.S. Navy Logistics",
       "Description":
-        "Working Project : Assist in the process of Monthly Navy Obligations by Streamlining Document creation in accordance with Current DoD instruction",
+        "WORKING PROJECT : US Navy Logistics Specialist assistance page, Todo Calender, Document Creation, Personnel Management, Vender Management",
       "Image": Navy,
       "GitHubLink": "https://github.com/TravisAlanH/Navy-Page",
       "LiveLink": "https://main--luxury-conkies-c0db37.netlify.app",
