@@ -38,7 +38,7 @@ let data = {
     },
     {
       "Name": "resume",
-      "Url": "https://indd.adobe.com/view/a02a1e3e-d989-459d-9ae4-7c4e97f834c1",
+      "Url": "https://main--meek-licorice-6882a8.netlify.app",
     },
   ],
   "AboutText":
@@ -70,13 +70,7 @@ let data = {
     },
   ],
   "TalentName": "Team",
-  "TalentSkills": [
-    { "Skill": "Agile Development" },
-    { "Skill": "Object Oriented Design" },
-    { "Skill": "Data Structures" },
-    { "Skill": "Mentorship" },
-    { "Skill": "Financial Management" },
-  ],
+  "TalentSkills": [{ "Skill": "Agile Development" }, { "Skill": "Object Oriented Design" }, { "Skill": "Data Structures" }, { "Skill": "Mentorship" }, { "Skill": "Financial Management" }],
   "SkillsName": "Programing",
   "Skills": [
     {
@@ -125,13 +119,7 @@ let data = {
   ],
   "TextArea": (
     <div className="FormLine">
-      <textarea
-        type="text"
-        className="FormInputTextArea ChangeLabel"
-        name="comments"
-        id="comments"
-        rows={6}
-      ></textarea>
+      <textarea type="text" className="FormInputTextArea ChangeLabel" name="comments" id="comments" rows={6}></textarea>
       <label htmlFor="Phone" className="FormLabel ">
         Comments
       </label>
@@ -144,16 +132,14 @@ let data = {
   "Projects": [
     {
       "Name": "Amazon Clone",
-      "Description":
-        "This is a clone of the Amazon website. It is built using React, HTML and CSS",
+      "Description": "This is a clone of the Amazon website. It is built using React, HTML and CSS",
       "Image": Amazon,
       "GitHubLink": "https://github.com/TravisAlanH/AmazonClone",
       "LiveLink": "https://stately-melba-346208.netlify.app",
     },
     {
       "Name": "U.S. Navy Logistics",
-      "Description":
-        "WORKING PROJECT : US Navy Logistics Specialist assistance page, Todo Calender, Document Creation, Personnel Management, Vender Management",
+      "Description": "WORKING PROJECT : US Navy Logistics Specialist assistance page, Todo Calender, Document Creation, Personnel Management, Vender Management",
       "Image": Navy,
       "GitHubLink": "https://github.com/TravisAlanH/Navy-Page",
       "LiveLink": "https://main--luxury-conkies-c0db37.netlify.app",
