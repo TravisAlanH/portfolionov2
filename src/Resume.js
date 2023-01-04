@@ -154,7 +154,7 @@ let data = {
     },
     {
       "Name": "Calender Todo",
-      "Description": "Working Project: Todo App with calender view: React / Tailwind",
+      "Description": "Working Project: Responsive: Todo App with calender view: React / Tailwind",
       "Image": Todo,
       "GitHubLink": "https://github.com/TravisAlanH/calender_events",
       "LiveLink": "https://musical-otter-c1a269.netlify.app/",
