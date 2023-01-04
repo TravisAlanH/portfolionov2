@@ -4,6 +4,7 @@ import UC from "./Images/UC_Logo.png";
 import Amazon from "./Images/AmazonCloneImg.jpg";
 import Navy from "./Images/NavyPage.jpg";
 import Game from "./Images/IndexGame.jpg";
+import Todo from "./Images/TodoScreen.jpg";
 
 let data = {
   "Name": "Travis Heidelberger",
@@ -150,6 +151,13 @@ let data = {
       "Image": Game,
       "GitHubLink": "https://github.com/TravisAlanH/CanvasGame",
       "LiveLink": "https://main--animated-florentine-0b348b.netlify.app",
+    },
+    {
+      "Name": "Calender Todo",
+      "Description": "Working Project: Todo App with calender view: React / Tailwind",
+      "Image": Todo,
+      "GitHubLink": "https://github.com/TravisAlanH/calender_events",
+      "LiveLink": "https://musical-otter-c1a269.netlify.app/",
     },
   ],
 };
