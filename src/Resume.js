@@ -132,13 +132,6 @@ let data = {
   },
   "Projects": [
     {
-      "Name": "Amazon Clone",
-      "Description": "This is a clone of the Amazon website. It is built using React, HTML and CSS",
-      "Image": Amazon,
-      "GitHubLink": "https://github.com/TravisAlanH/AmazonClone",
-      "LiveLink": "https://stately-melba-346208.netlify.app",
-    },
-    {
       "Name": "U.S. Navy Logistics",
       "Description": "WORKING PROJECT : US Navy Logistics Specialist assistance page, Todo Calender, Document Creation, Personnel Management, Vender Management",
       "Image": Navy,
@@ -146,14 +139,14 @@ let data = {
       "LiveLink": "https://main--luxury-conkies-c0db37.netlify.app",
     },
     {
-      "Name": "Canvas Game",
-      "Description": "W,A,S,D to move, Mouse Down to Shoot, Space for Bomb",
-      "Image": Game,
-      "GitHubLink": "https://github.com/TravisAlanH/CanvasGame",
-      "LiveLink": "https://main--animated-florentine-0b348b.netlify.app",
+      "Name": "Amazon Clone",
+      "Description": "This is a clone of the Amazon website. It is built using React, HTML and CSS",
+      "Image": Amazon,
+      "GitHubLink": "https://github.com/TravisAlanH/AmazonClone",
+      "LiveLink": "https://stately-melba-346208.netlify.app",
     },
     {
-      "Name": "Calender Todo",
+      "Name": "Calender Events",
       "Description": "Working Project: Responsive: Todo App with calender view: React / Tailwind",
       "Image": Todo,
       "GitHubLink": "https://github.com/TravisAlanH/calender_events",
