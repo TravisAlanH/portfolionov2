@@ -3,7 +3,7 @@ import DSU from "./Images/DSU_Logo.png";
 import UC from "./Images/UC_Logo.png";
 import Amazon from "./Images/AmazonCloneImg.jpg";
 import Navy from "./Images/NavyPage.jpg";
-import Game from "./Images/IndexGame.jpg";
+// import Game from "./Images/IndexGame.jpg";
 import Todo from "./Images/TodoScreen.jpg";
 
 let data = {
