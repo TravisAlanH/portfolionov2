@@ -3,6 +3,7 @@ import DSU from "./Images/DSU_Logo.png";
 import UC from "./Images/UC_Logo.png";
 import Amazon from "./Images/AmazonCloneImg.jpg";
 import Navy from "./Images/NavyPage.jpg";
+import GitImg from "./Images/GitHelp.jpg";
 // import Game from "./Images/IndexGame.jpg";
 import Todo from "./Images/TodoScreen.jpg";
 
@@ -132,8 +133,15 @@ let data = {
   },
   "Projects": [
     {
+      "Name": "Git Command Helper",
+      "Description": "Began Jan 8, 23: WORKING PROJECT: Common Git Commands that are used frequently as well as description of use: Mobile First, React, Tailwind, Data Base",
+      "Image": GitImg,
+      "GitHubLink": "https://github.com/TravisAlanH/githelp",
+      "LiveLink": "https://voluble-liger-1d24bd.netlify.app/",
+    },
+    {
       "Name": "U.S. Navy Logistics",
-      "Description": "WORKING PROJECT : US Navy Logistics Specialist assistance page, Todo Calender, Document Creation, Personnel Management, Vender Management",
+      "Description": "US Navy Logistics Specialist assistance page, Todo Calender, Document Creation, Personnel Management, Vender Management",
       "Image": Navy,
       "GitHubLink": "https://github.com/TravisAlanH/Navy-Page",
       "LiveLink": "https://main--luxury-conkies-c0db37.netlify.app",
@@ -147,7 +155,7 @@ let data = {
     },
     {
       "Name": "Calender Events",
-      "Description": "Working Project: Responsive Mobile First: Event App with Daily View: React / Tailwind",
+      "Description": "WORKING PROJECT: Responsive Mobile First: Event App with Daily View: React / Tailwind",
       "Image": Todo,
       "GitHubLink": "https://github.com/TravisAlanH/calender_events",
       "LiveLink": "https://musical-otter-c1a269.netlify.app/",
