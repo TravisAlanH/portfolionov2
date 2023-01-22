@@ -6,6 +6,7 @@ import Navy from "./Images/NavyPage.jpg";
 import GitImg from "./Images/GitHelp.jpg";
 // import Game from "./Images/IndexGame.jpg";
 import Todo from "./Images/TodoScreen.jpg";
+import WeatherIMG from "./Images/WeatherPage.jpg";
 
 let data = {
   "Name": "Travis Heidelberger",
@@ -132,6 +133,13 @@ let data = {
     "Type": "submit",
   },
   "Projects": [
+    {
+      "Name": "Weather",
+      "Description": "Weather App using National Weather Service API, ReactJS Axios HTML Tailwind CSS Responsive",
+      "Image": WeatherIMG,
+      "GitHubLink": "https://github.com/TravisAlanH/weather",
+      "LiveLink": "https://glittering-pika-40b4c8.netlify.app/",
+    },
     {
       "Name": "Git Command Helper",
       "Description": "Began Jan 8, 23: WORKING PROJECT: Common Git Commands that are used frequently as well as description of use: Mobile First, React, Tailwind, Data Base",
