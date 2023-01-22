@@ -138,7 +138,7 @@ let data = {
       "Description": "Weather App using National Weather Service API, ReactJS Axios HTML Tailwind CSS Responsive",
       "Image": WeatherIMG,
       "GitHubLink": "https://github.com/TravisAlanH/weather",
-      "LiveLink": "https://glittering-pika-40b4c8.netlify.app/",
+      "LiveLink": "http://weatherwind.net/",
     },
     {
       "Name": "Git Command Helper",
