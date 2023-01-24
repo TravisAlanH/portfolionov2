@@ -140,13 +140,13 @@ let data = {
       "GitHubLink": "https://github.com/TravisAlanH/weather",
       "LiveLink": "http://weatherwind.net/",
     },
-    {
-      "Name": "Git Command Helper",
-      "Description": "Began Jan 8, 23: WORKING PROJECT: Common Git Commands that are used frequently as well as description of use: Mobile First, React, Tailwind, Data Base",
-      "Image": GitImg,
-      "GitHubLink": "https://github.com/TravisAlanH/githelp",
-      "LiveLink": "https://voluble-liger-1d24bd.netlify.app/",
-    },
+    // {
+    //   "Name": "Git Command Helper",
+    //   "Description": "Began Jan 8, 23: WORKING PROJECT: Common Git Commands that are used frequently as well as description of use: Mobile First, React, Tailwind, Data Base",
+    //   "Image": GitImg,
+    //   "GitHubLink": "https://github.com/TravisAlanH/githelp",
+    //   "LiveLink": "https://voluble-liger-1d24bd.netlify.app/",
+    // },
     {
       "Name": "U.S. Navy Logistics",
       "Description": "US Navy Logistics Specialist assistance page, Todo Calender, Document Creation, Personnel Management, Vender Management",
