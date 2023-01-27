@@ -7,6 +7,7 @@ import Navy from "./Images/NavyPage.jpg";
 // import Game from "./Images/IndexGame.jpg";
 import Todo from "./Images/TodoScreen.jpg";
 import WeatherIMG from "./Images/WeatherPage.jpg";
+import TicketMaster from "./Images/TicketMaster.jpg";
 
 let data = {
   "Name": "Travis Heidelberger",
@@ -148,19 +149,26 @@ let data = {
     //   "LiveLink": "https://voluble-liger-1d24bd.netlify.app/",
     // },
     {
+      "Name": "Event Search w/ Location",
+      "Description": "WORKING, Responsive Ticket Search using Ticket Master API, React, Axios, Cors, Tailwind, Location Data, Time Data",
+      "Image": TicketMaster,
+      "GitHubLink": "https://github.com/TravisAlanH/ticketmaster",
+      "LiveLink": "https://main--rainbow-starlight-b9b707.netlify.app/home",
+    },
+    {
       "Name": "U.S. Navy Logistics",
       "Description": "US Navy Logistics Specialist assistance page, Todo Calender, Document Creation, Personnel Management, Vender Management",
       "Image": Navy,
       "GitHubLink": "https://github.com/TravisAlanH/Navy-Page",
       "LiveLink": "https://main--luxury-conkies-c0db37.netlify.app",
     },
-    {
-      "Name": "Amazon Clone",
-      "Description": "This is a clone of the Amazon website. It is built using React, HTML and CSS",
-      "Image": Amazon,
-      "GitHubLink": "https://github.com/TravisAlanH/AmazonClone",
-      "LiveLink": "https://stately-melba-346208.netlify.app",
-    },
+    // {
+    //   "Name": "Amazon Clone",
+    //   "Description": "This is a clone of the Amazon website. It is built using React, HTML and CSS",
+    //   "Image": Amazon,
+    //   "GitHubLink": "https://github.com/TravisAlanH/AmazonClone",
+    //   "LiveLink": "https://stately-melba-346208.netlify.app",
+    // },
     {
       "Name": "Calender Events",
       "Description": "WORKING PROJECT: Responsive Mobile First: Event App with Daily View: React / Tailwind",
