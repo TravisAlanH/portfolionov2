@@ -1,7 +1,7 @@
 import { FaCss3Alt, FaHtml5, FaJsSquare, FaReact } from "react-icons/fa";
 import DSU from "./Images/DSU_Logo.png";
 import UC from "./Images/UC_Logo.png";
-import Amazon from "./Images/AmazonCloneImg.jpg";
+// import Amazon from "./Images/AmazonCloneImg.jpg";
 import Navy from "./Images/NavyPage.jpg";
 // import GitImg from "./Images/GitHelp.jpg";
 // import Game from "./Images/IndexGame.jpg";
