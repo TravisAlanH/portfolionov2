@@ -47,7 +47,7 @@ let data = {
     },
   ],
   "AboutText":
-    "My Name is Travis Heidelberger. I am a Software Developer that understands the importance of well built data structures. For the past 14 years I was Active duty with the United States Navy as a Government Credit Card Holder and Logistics Specialist where I maintained the financial assets of my command. I have a passion for learning, and drive to create new, responsive, things for the web.",
+    "My Name is Travis Heidelberger. I am a Software Developer that understands the importance of well built data structures. For the past 14 years I was Active duty with the United States Navy as a Financial and Logistics Specialist where I maintained the assets of my command. I have a passion for learning, and drive to create new, responsive, things for the web.",
 
   "HeaderLines": [
     {
