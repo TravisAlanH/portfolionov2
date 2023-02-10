@@ -1,4 +1,5 @@
-import { FaCss3Alt, FaHtml5, FaJsSquare, FaReact } from "react-icons/fa";
+import { FaCss3Alt, FaHtml5, FaJsSquare, FaReact, FaNodeJs } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 import DSU from "./Images/DSU_Logo.png";
 import UC from "./Images/UC_Logo.png";
 // import Amazon from "./Images/AmazonCloneImg.jpg";
@@ -46,7 +47,7 @@ let data = {
     },
   ],
   "AboutText":
-    "My Name is Travis Heidelberger. I am a front end web developer that understands the importance of well built data structures. For the past 14 years I was Active duty with the United States Navy as a Government Credit Card Holder and Logistics Specialist where I maintained the financial assets of my command. I have a passion for learning, and drive to create new, responsive, things for the web.",
+    "My Name is Travis Heidelberger. I am a Software Developer that understands the importance of well built data structures. For the past 14 years I was Active duty with the United States Navy as a Government Credit Card Holder and Logistics Specialist where I maintained the financial assets of my command. I have a passion for learning, and drive to create new, responsive, things for the web.",
 
   "HeaderLines": [
     {
@@ -82,12 +83,20 @@ let data = {
       "Name": "React",
     },
     {
+      "Icon": <FaNodeJs className="Icon" />,
+      "Name": "Node",
+    },
+    {
       "Icon": <FaJsSquare className="Icon" />,
       "Name": "JavaScript",
     },
     {
       "Icon": <FaHtml5 className="Icon" />,
       "Name": "HTML",
+    },
+    {
+      "Icon": <SiTailwindcss className="Icon" />,
+      "Name": "Tailwind",
     },
     {
       "Icon": <FaCss3Alt className="Icon" />,
@@ -135,7 +144,7 @@ let data = {
   },
   "Projects": [
     {
-      "Name": "Weather",
+      "Name": "WeatherWind.net",
       "Description": "Weather App using National Weather Service API, ReactJS Axios HTML Tailwind CSS Responsive",
       "Image": WeatherIMG,
       "GitHubLink": "https://github.com/TravisAlanH/weather",
@@ -149,8 +158,8 @@ let data = {
     //   "LiveLink": "https://voluble-liger-1d24bd.netlify.app/",
     // },
     {
-      "Name": "Event Search w/ Location",
-      "Description": "WORKING, Responsive Ticket Search using Ticket Master API, React, Axios, Cors, Tailwind, Location Data, Time Data",
+      "Name": "EventMaster",
+      "Description": "Responsive Ticket Search using Ticket Master API, React, Axios, Cors, Tailwind, Location Data, Time Data",
       "Image": TicketMaster,
       "GitHubLink": "https://github.com/TravisAlanH/ticketmaster",
       "LiveLink": "https://main--rainbow-starlight-b9b707.netlify.app/home",
@@ -171,7 +180,7 @@ let data = {
     // },
     {
       "Name": "Calender Events",
-      "Description": "WORKING PROJECT: Responsive Mobile First: Event App with Daily View: React / Tailwind",
+      "Description": "WORKING PROJECT: Responsive Mobile First: Event App with Daily View: React, Tailwind",
       "Image": Todo,
       "GitHubLink": "https://github.com/TravisAlanH/calender_events",
       "LiveLink": "https://musical-otter-c1a269.netlify.app/",
