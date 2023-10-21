@@ -44,7 +44,7 @@ let data = {
     },
     {
       Name: "resume",
-      Url: "https://raw.githubusercontent.com/TravisAlanH/PulseV6/main/Heidelberger_Resume and Cover.pdf",
+      Url: "https://fuchsia-ardenia-69.tiiny.site/",
     },
   ],
   AboutText:
