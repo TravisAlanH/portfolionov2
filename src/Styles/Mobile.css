@@ -1,237 +1,219 @@
-
-
 @media screen and (max-width: 770px) {
+  .NavBar {
+    display: none;
+  }
+  .NavBarM {
+    display: flex !important;
+  }
+  .AboutHeaderSplit {
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+  .FaceImage {
+    transform: translateX(0rem);
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 0;
+  }
+  .ProfilePhoto {
+    transform: translateX(1rem);
+  }
+  .Hello {
+    width: fit-content;
+    /* transform: translateX(1rem); */
+  }
+  .HelloText {
+    font-size: 400%;
+    transform: translateX(1.2rem);
+  }
+  .ProfilePhoto {
+    margin: 3rem;
+  }
+  .AboutText {
+    width: 70%;
+    transform: translateX(1rem);
+  }
+  p {
+    text-indent: 2rem;
+  }
+  .SchoolDiv {
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+  }
+  .ShoolContent {
+    flex-direction: column;
+    transform: translateX(1rem);
+  }
+  .SchoolBox {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .SchoolLogoBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 2rem;
+  }
+  .SchoolText {
+    width: 14rem;
+  }
+  .SkillsDisplay {
+    transform: translateX(1rem);
+    margin: 2rem;
+  }
+  .TeamDisplay {
+    transform: translateX(1rem);
+  }
 
-    
-    .NavBar {
-        display: none;
-    }
-    .NavBarM {
-        display: flex !important;
-    }
-    .AboutHeaderSplit {
-        flex-direction: column;
-        position: relative;
-        align-items: center;
-        justify-content: center;
-    }
-    .FaceImage {
-        transform: translateX(0rem);
-        width: 100%;
-        margin-top: 2rem;
-        border-radius: 0;
-    }
-    .ProfilePhoto {
-        transform: translateX(1rem);
-    }
-    .Hello {
-        width: fit-content;
-        /* transform: translateX(1rem); */
-    }
-    .HelloText {
-        font-size: 400%;
-        transform: translateX(1.2rem);
-    }
-    .ProfilePhoto{
-        margin: 3rem;
-    }
-    .AboutText {
-        width: 70%;
-        transform: translateX(1rem);
-    }
-    p {
-        text-indent: 2rem;
-    }
-    .SchoolDiv {
-        flex-direction: column;
-        height: fit-content;
-        align-items: center;
-        justify-content: center;
-        
+  .SkillsDiv {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .SkillsLeftDiv {
+    width: 100%;
+  }
+  .TeamDisplay {
+    padding: 0;
+    padding-top: 2rem;
+    width: 80%;
+  }
+  .TeamText {
+    padding-left: 0.5rem;
+  }
+  .SkillsRightDiv {
+    width: 100%;
+  }
 
-    }
-    .ShoolContent {
-        flex-direction: column;
-        transform: translateX(1rem);
-    }
-    .SchoolBox {
-        height: fit-content;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .SchoolLogoBox {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-left: 2rem;
-    }
-    .SchoolText {
-        width: 14rem;
-    }
-    .SkillsDisplay {
-        transform: translateX(1rem);
-        margin: 2rem;
-    }
-    .TeamDisplay {
-        transform: translateX(1rem);
-    }
-    
-    .SkillsDiv {
-        height: auto;
-        flex-direction: column;
-        align-items: center;
-    }
-    .SkillsLeftDiv {
-        width: 100%;
-        
-    }
-    .TeamDisplay {
-        padding: 0;
-        padding-top: 2rem;
-        width: 80%;
-    }
-    .TeamText {
-        padding-left: .5rem;
-    }
-    .SkillsRightDiv {
-        width: 100%;
-    }
-    
-    .QuoteMark {
-        transform: translateX(1rem);
+  .QuoteMark {
+    transform: translateX(1rem);
+  }
 
-    }
+  .QuoteText {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    transform: translateX(1rem);
+  }
+  .QuoteTop > h3 {
+    text-align: center;
+  }
 
-    .QuoteText {
-        padding-right: 1rem;
-        padding-left: 1rem;
-        transform: translateX(1rem);
-
-    }
-    .QuoteTop > h3 {
-        text-align: center;
-    }
-
-
-    .ContactBox {
-        flex-direction: column;
-        gap: 0;
-        height: fit-content;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        align-items: center;
-    }
-    .ContactBoxInfo {
-        margin-bottom: 0;
-    }
-    .ContactHeader {
-        display: none;
-    }
-    .ContactInfoBox, .FormBase{
-        transform: translateX(1rem);
-
-    }
-    .FormBase {
-        margin-top: 0;
-    }
-    .FormLine {
-        flex-direction: column-reverse;
-    }
-    .ProjectsLayoutBox {
-        flex-direction: column;
-    }
-    .ProjectsBox {
-        height: auto;
-    }
-    .ProjectsLayoutBox {
-        padding-top: 1rem;
-        padding-bottom: 2rem;
-    }
-    .ProjectItemBox {
-        height: 13rem;
-        transform: translateX(1rem);
-    }
-    .ProjectItemImage {
-        height: 80%;
-    }
-    .ProjectItemAboutTextBox {
-        height: 20%;
-    }
-    .ProjectItemBox:hover {
-        width: 15rem;
-        height: 20rem;
-    }
-    .MobileProjectMessage {
-        display: block;
-        font-size: 80%;
-        text-decoration: none;
-        letter-spacing: .1rem;
-        text-transform: uppercase;
-        color: white; 
-        transform: translateX(1rem);
-   
-    }
-    .PageIcon{
-        transform: translateX(1rem);
-
-    }
-    .ToTopButton {
-        transform: translateX(1rem);
-    }
-    .ToContactDiv {
-        display: block;
-        position: relative;
-        top: 33.5rem;
-        left: 15rem;
-        z-index: 3;
-    }
-
+  .ContactBox {
+    flex-direction: column;
+    gap: 0;
+    height: fit-content;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+  }
+  .ContactBoxInfo {
+    margin-bottom: 0;
+  }
+  .ContactHeader {
+    display: none;
+  }
+  .ContactInfoBox,
+  .FormBase {
+    transform: translateX(1rem);
+  }
+  .FormBase {
+    margin-top: 0;
+  }
+  .FormLine {
+    flex-direction: column-reverse;
+  }
+  .ProjectsLayoutBox {
+    flex-direction: column;
+  }
+  .ProjectsBox {
+    height: auto;
+  }
+  .ProjectsLayoutBox {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  .ProjectItemBox {
+    height: 13rem;
+    transform: translateX(1rem);
+  }
+  .ProjectItemImage {
+    height: 80%;
+  }
+  .ProjectItemAboutTextBox {
+    height: 20%;
+  }
+  .ProjectItemBox:hover {
+    width: 20rem;
+    height: 30rem;
+  }
+  .MobileProjectMessage {
+    display: block;
+    font-size: 80%;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: white;
+    transform: translateX(1rem);
+  }
+  .PageIcon {
+    transform: translateX(1rem);
+  }
+  .ToTopButton {
+    transform: translateX(1rem);
+  }
+  .ToContactDiv {
+    display: block;
+    position: relative;
+    top: 33.5rem;
+    left: 15rem;
+    z-index: 3;
+  }
 }
-
-
-
-
 
 .ToContactDiv > button {
-    background: none;
-	color: white;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-    font-size: 90%;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: white; 
+  background: none;
+  color: white;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 90%;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
 }
-
 
 .NavBarM {
-    /* padding-top: 2.5rem; */
-    position:fixed;
-    width: 3rem;
-    height: 100vh;
-    top: 0vh;
-    left: 0;
-    display: none;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 2rem;
-    align-items: center;
-    z-index: 2;
+  /* padding-top: 2.5rem; */
+  position: fixed;
+  width: 3rem;
+  height: 100vh;
+  top: 0vh;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 2rem;
+  align-items: center;
+  z-index: 2;
 }
 
-.NavBarM:before{
-    position:absolute;
-    z-index:-1;
-    top:0;
-    left:25%;
-    width:50%;
-    height:100%;
-    content:"";
-    background-color:white;
+.NavBarM:before {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 25%;
+  width: 50%;
+  height: 100%;
+  content: "";
+  background-color: white;
 }

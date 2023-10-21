@@ -20,7 +20,8 @@ export default function AboutContent() {
       </div>
       <div className="AboutNotesDiv">
         <div className="AboutText">
-          <p>{data.AboutText}</p>
+          {/* <p className="sm:hidden md:hidden">{data.AboutText}</p> */}
+          <p className="lg:hidden md:hidden">{data.AboutTextSM}</p>
         </div>
       </div>
       <div className="PageIconDiv">
