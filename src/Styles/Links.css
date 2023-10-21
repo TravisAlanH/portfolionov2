@@ -1,104 +1,112 @@
 .PageBlockLong {
-    position: relative;
-    width: 100vw;
-    height: 30rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(46, 59, 68);
-    gap: 2rem;
-    margin-top: 8rem;
-    margin-bottom: 8rem;
-    z-index: 1;
+  position: relative;
+  width: 100vw;
+  height: 30rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(46, 59, 68);
+  gap: 2rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  z-index: 1;
 }
 
 .Start {
-    height: 4rem;
+  height: 4rem;
 }
 
-p { 
-    text-indent: 5rem;
- }
+p {
+  text-indent: 5rem;
+}
 
 .TopBoxContent {
-    position: relative;
-    top: 0;
-    height: 10rem;
-    width: 100%;
+  position: relative;
+  top: 0;
+  height: 10rem;
+  width: 100%;
 }
 
 .LinkNameDiv {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .Link {
-    font: Sans-Serif;
-    padding-bottom: 10rem;
-    margin-right: 10rem;
-    font-size: 600%;
-    text-decoration: none;
-    letter-spacing: 1.2rem;
-    text-transform: uppercase;
-    color: white;
+  font: Sans-Serif;
+  padding-bottom: 10rem;
+  margin-right: 10rem;
+  font-size: 600%;
+  text-decoration: none;
+  letter-spacing: 1.2rem;
+  text-transform: uppercase;
+  color: white;
 }
 
 .MobileProjectMessage {
-    display: none;
+  display: none;
 }
 .ArrowDown {
-    align-items: flex-end;
-    justify-content: flex-end;
-    font-size: 70%;
-    color: #4b818d;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 70%;
+  color: #4b818d;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 .ArrowDown:hover {
-    color: #5d7f87;
-    cursor: pointer;
+  color: #5d7f87;
+  cursor: pointer;
 }
 
 .bounce-3 {
-    animation-name: bounce-3;
-    animation-timing-function: ease;
+  animation-name: bounce-3;
+  animation-timing-function: ease;
 }
 @keyframes bounce-3 {
-    0%   { transform: translateY(0); }
-    30%  { transform: translateY(-1rem); }
-    50%  { transform: translateY(0); }
-    100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-1rem);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .PageBlockLinks {
-    font: Sans-Serif;
-    font-size: 110%;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    margin-right: 1.5rem;
+  font: Sans-Serif;
+  font-size: 110%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  margin-right: 1.5rem;
 }
 
 .PageBlockLinkBox {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .ContactBox {
-    width: 100%;
-    height: 30rem;
-    background-color: rgb(46, 59, 68);
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 3rem;
+  width: 100%;
+  height: 30rem;
+  background-color: rgb(46, 59, 68);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
 }
 
 /* .ContactAllBox {
@@ -109,68 +117,66 @@ p {
 } */
 
 .ContactInfoBox {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .FormBase {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5rem;
 }
 
 .FormLine {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    padding-top: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  padding-top: 1rem;
 }
 
 .FormLabel {
-    padding-right: .5rem;
-    font: Sans-Serif;
-    font-size: 110%;
-    text-decoration: none;
-    text-transform: uppercase;
-    /* color: white; */
-
+  padding-right: 0.5rem;
+  font: Sans-Serif;
+  font-size: 110%;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* color: white; */
 }
 
 .FormInputText {
-    width: 16rem;
-    height: 2rem;
-    padding-left: .2rem;
-    border: 0;
-    font-size: 16px;
+  width: 16rem;
+  height: 2rem;
+  padding-left: 0.2rem;
+  border: 0;
+  font-size: 16px;
 }
 
 .FormInputTextArea {
-    width: 16rem;
-    padding-left: .2rem;
-    border: 0;
-    font-size: 16px;
+  width: 16rem;
+  padding-left: 0.2rem;
+  border: 0;
+  font-size: 16px;
 }
 
 .SubmitButton {
-    background: none;
-	color: white;
-	border: none;
-	padding: 0;
-    font: Sans-Serif;
-	cursor: pointer;
-	outline: inherit;
-    font-size: 160%;
-    padding-top: 2rem;
-    text-transform: uppercase;
-
+  background: none;
+  color: white;
+  border: none;
+  padding: 0;
+  font: Sans-Serif;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 160%;
+  padding-top: 2rem;
+  text-transform: uppercase;
 }
 
 .FormLineSubmit {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* #name:focus :root .Name {
@@ -180,48 +186,48 @@ p {
 } */
 
 .FormLine .FormLabel {
-    color: white;
+  color: white;
 }
 
 .ChangeLabel:focus + .FormLabel {
-    background-image: linear-gradient(20deg, #78dcf3, #332849);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;  
+  background-image: linear-gradient(20deg, #78dcf3, #332849);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .ContactHeader {
-    transform:translateY(5rem);
-    font: Sans-Serif;
-    margin-right: 1rem;
-    font-size: 90%;
-    text-decoration: none;
-    letter-spacing: .2rem;
-    text-transform: uppercase;
-    color: white;
+  transform: translateY(5rem);
+  font: Sans-Serif;
+  margin-right: 1rem;
+  font-size: 90%;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: white;
 }
 
 .ContactInfoBox {
-    color: white;
-    margin-bottom: 2rem;
+  color: white;
+  margin-bottom: 2rem;
 }
 
 .ContactInfoBox h5 {
-    color: white;
-    text-transform: uppercase;
+  color: white;
+  text-transform: uppercase;
 }
 
 .ContactInfoBox h3:hover {
-    background-image: linear-gradient(20deg, #78dcf3, #332849);
-    background-clip: text;
-    -webkit-text-fill-color: transparent; 
+  background-image: linear-gradient(20deg, #78dcf3, #332849);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .ContactIconLinks {
-    font-size: 110%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding-top: .5rem;
+  font-size: 110%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 0.5rem;
 }
 /* .FormInputText {
 } */
@@ -229,415 +235,407 @@ p {
 /* About */
 
 .AboutHeaderSplit {
-    width: 100%;
-    height: 30rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-bottom: 2rem;
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 2rem;
 }
 
 .Hello {
-    width: 50%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 50%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .HelloText {
-    font: Sans-Serif;
-    font-size: 600%;
-    text-decoration: none;
-    letter-spacing: 1.2rem;
-    text-transform: uppercase;
+  font: Sans-Serif;
+  font-size: 600%;
+  text-decoration: none;
+  letter-spacing: 1.2rem;
+  text-transform: uppercase;
 }
 
-.FaceImage{
-    width: 50%;
-    background-color: rgb(46, 59, 68);
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.FaceImage {
+  width: 50%;
+  background-color: rgb(46, 59, 68);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .ProfilePhoto {
-    width: 17rem;
-    height: 17rem;
-    object-fit: cover;
-    border-radius: 50%;
-    transform: translateX(-4rem);
+  width: 17rem;
+  height: 17rem;
+  object-fit: cover;
+  border-radius: 50%;
+  transform: translateX(-4rem);
 }
 
 .AboutNotesDiv {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
 }
 
 .AboutText {
-    width: 50%;
+  width: 50%;
 }
 
 .PageIconDiv {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .PageIcon {
-    width: 4rem;
-    height: 4rem;
-    color: #4b8491;
+  width: 4rem;
+  height: 4rem;
+  color: #4b8491;
 }
 
 .PageIconSmall {
-    width: 2rem;
-    height: 2rem;
-    color: #6799a5;
+  width: 2rem;
+  height: 2rem;
+  color: #6799a5;
 }
 
 .SchoolDiv {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    gap: 2rem;
-    background-color: rgb(46, 59, 68);
-
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  gap: 2rem;
+  background-color: rgb(46, 59, 68);
 }
 
 .ShoolContent {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: white;
-    padding: 1rem;
-    border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .SchoolIcon {
-    width: 5rem;
-    height: 5rem;
-    padding-right: 2rem;
+  width: 5rem;
+  height: 5rem;
+  padding-right: 2rem;
 }
 
 .SchoolText {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .School {
-    font: Sans-Serif;
+  font: Sans-Serif;
 }
 
 .Degree {
-    background-image: linear-gradient(20deg, #78dcf3, #332849);
-    background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    text-decoration: none;
-    letter-spacing: .1rem;
-    text-transform: uppercase;
+  background-image: linear-gradient(20deg, #78dcf3, #332849);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
 }
 
 .SkillsDiv {
-    width: 100%;
-    height: 30rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .SkillsRightDiv {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* font: Sans-Serif;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* font: Sans-Serif;
     font-size: 600%;
     text-decoration: none;
     letter-spacing: 1.2rem;
     text-transform: uppercase; */
 }
 
-.SkillsLeftDiv{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    background-color: rgb(46, 59, 68);
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+.SkillsLeftDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: rgb(46, 59, 68);
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 .SkillsDisplay {
-    width: fit-content;
-    height: fit-content;
-    background-color: white;
-    border-radius: 1rem;
-    padding: 2rem;
-    transform: translateX(5rem);
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  transform: translateX(5rem);
 }
 
 .TeamDisplay {
-    width: fit-content;
-    height: fit-content;
-    background-color: white;
-    border-radius: 1rem;
-    padding: 2rem;
-    transform: translateX(-5rem);
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  transform: translateX(-5rem);
 }
 
 .ProgramingSkills {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .ProgramingSkillContent {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: white;
-    padding: .2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  padding: 0.2rem;
 }
 
 .ProgramingSkillText {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
 }
 
 .SkillsTitle {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .SkillsTitleText {
-    background-image: linear-gradient(20deg, #78dcf3, #332849);
-    background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    letter-spacing: .1rem;
-    text-transform: uppercase;
-    text-decoration: underline;
-    padding-bottom: 1rem;
-    
+  background-image: linear-gradient(20deg, #78dcf3, #332849);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding-bottom: 1rem;
 }
 
 .Icon {
-    width: 1.5rem;
-    height: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .SkillsText {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .TeamText {
-    text-transform: uppercase;
-    padding-bottom: .5rem;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
 }
 
 .ToTopButton {
-    width: 7rem;
-    border: 0;
-    padding: .5rem;
-    font: bold Sans-Serif;
-    color: white;
-    background-color: rgb(46, 59, 68);
-
+  width: 7rem;
+  border: 0;
+  padding: 0.5rem;
+  font: bold Sans-Serif;
+  color: white;
+  background-color: rgb(46, 59, 68);
 }
 
 /* QUOTE */
 
-.QuoteBlock{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.QuoteBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .PageIconQuote {
-    width: 2rem;
-    height: 2rem;
-    color: #6799a5
+  width: 2rem;
+  height: 2rem;
+  color: #6799a5;
 }
 
 .QuoteText {
-    display: flex;
-    flex-direction: column;
-    padding-left: 3rem;
-    padding-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .QuoteBottom {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .QuoteText {
-    width: 50%;
+  width: 50%;
 }
 
 /* PROJECTS */
 
 .ProjectsBox {
-    width: 100%;
-    height: 30rem;
-    background-color: rgb(46, 59, 68);
+  width: 100%;
+  height: 30rem;
+  background-color: rgb(46, 59, 68);
 }
 
-.ProjectsLayoutBox{
-    height: inherit;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-} 
+.ProjectsLayoutBox {
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
 
 .ProjectItemBox {
-    width: 15rem;
-    height: 20rem;
-    background-color: white;
-    border-radius: 1rem;
-    transition: all 300ms ease-in-out;
+  width: 15rem;
+  height: 20rem;
+  background-color: white;
+  border-radius: 1rem;
+  transition: all 300ms ease-in-out;
 }
 
 .ProjectItemBox:hover {
-    width: 18rem;
-    height: 24rem;
+  width: 22rem;
+  height: 28rem;
 }
 
-.ProjectItemBox:hover  .ProjectItemImageText {
-    background-image: linear-gradient(20deg, #bae7f2, #d1c2ee);
-    background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    opacity: 1;
+.ProjectItemBox:hover .ProjectItemImageText {
+  background-image: linear-gradient(20deg, #bae7f2, #d1c2ee);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
 }
-
-
 
 .ProjectItemImage {
-    width: 100%;
-    height: 60%;
-    border-radius: inherit;
-    transition: all 300ms ease-in-out;
-    /* display: flex;
+  width: 100%;
+  height: 60%;
+  border-radius: inherit;
+  transition: all 300ms ease-in-out;
+  /* display: flex;
     flex-direction: column;
     justify-content: flex-end; */
 }
 
 .ProjectItemBox:hover .ProjectItemImage {
-    height: 45%;
+  height: 45%;
 }
 
 .ProjectItemImageTextBox {
-    position:relative;
-    width: 100%;
-    height: 20%;
-    background-color: rgb(46, 59, 68);
-    opacity: .8;
-    border-bottom-left-radius: inherit;
-    border-bottom-right-radius: inherit;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    z-index: 2;
-    transform: translateY(-105%);
+  position: relative;
+  width: 100%;
+  height: 20%;
+  background-color: rgb(46, 59, 68);
+  opacity: 0.8;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 2;
+  transform: translateY(-105%);
 }
 
 .ProjectImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;   
-    border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 1rem;
 }
 
 .ProjectItemImageText {
-    padding-left: 1rem;
-    color: white;
+  padding-left: 1rem;
+  color: white;
 }
 
 .ProjectItemAboutTextBox {
-    width: 100%;
-    height: 40%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    border-bottom-left-radius: inherit;
-    border-bottom-right-radius: inherit;
-    opacity: 1;
-    transition: all 300ms ease-in-out;
-
+  width: 100%;
+  height: 40%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  opacity: 1;
+  transition: all 300ms ease-in-out;
 }
 
 .ProjectItemBox:hover .ProjectItemAboutTextBox {
-    height: 55%;
+  height: 55%;
 }
 
 .ProjectItemAboutText {
-    margin-top: .5rem;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding-left: .5rem;
-    padding-right: .5rem;
-    overflow: hidden;
-    -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);
+  margin-top: 0.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);
 }
 
-
 .ProjectItemButtonsBox {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;    
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .ProjectItemButton {
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-top: .2rem;
-    padding-bottom: .2rem;
-    margin-right: .5rem;
-    margin-bottom: .5rem;
-    background-color: rgb(46, 59, 68);
-    color: white;
-    font-weight: 500;
-    border-radius: .3rem;
-    text-decoration: none;
-    transition: all 200ms ease-in-out;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: rgb(46, 59, 68);
+  color: white;
+  font-weight: 500;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
 }
 
 .ProjectItemButton:hover {
-    padding-right: 1.1rem;
-    padding-left: 1.1rem;
-    padding-top: .3rem;
-    padding-bottom: .3rem;
+  padding-right: 1.1rem;
+  padding-left: 1.1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
 }
 
 .ToContactDiv {
-    width: fit-content;
-    display: none;
+  width: fit-content;
+  display: none;
 }
