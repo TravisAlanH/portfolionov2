@@ -44,7 +44,7 @@ let data = {
     },
     {
       Name: "resume",
-      Url: "https://fuchsia-ardenia-69.tiiny.site/",
+      Url: "https://azure-benetta-15.tiiny.site/",
     },
   ],
   AboutText:
